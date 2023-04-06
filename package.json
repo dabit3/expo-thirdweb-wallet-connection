@@ -1,18 +1,29 @@
 {
   "name": "rnwalletexamplethirdweb",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "1.17.11",
+    "@thirdweb-dev/react": "^3.11.6",
+    "@thirdweb-dev/react-native": "^0.2.6",
+    "@thirdweb-dev/react-native-compat": "^0.2.6",
+    "ethers": "^5",
     "expo": "~48.0.10",
+    "expo-splash-screen": "~0.18.1",
     "expo-status-bar": "~1.4.4",
+    "node-libs-browser": "^2.2.1",
     "react": "18.2.0",
-    "react-native": "0.71.6"
+    "react-native": "0.71.6",
+    "react-native-crypto": "^2.2.0",
+    "react-native-get-random-values": "^1.8.0",
+    "react-native-mmkv": "^2.6.3",
+    "react-native-randombytes": "^3.6.1",
+    "react-native-svg": "13.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
